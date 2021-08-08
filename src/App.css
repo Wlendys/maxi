@@ -8,23 +8,3 @@
   justify-content: center;
   font-family: 'Roboto', sans-serif;
 }
-.form {
-  width: 400px;
-  height: 605px;
-  background-color: #FFFFFF;
-  color: #222222;
-  border-radius: 8px;
-  padding: 28px;
-}
-.title {
-  font-size: 28px;
-  font-weight: 700;
-}
-input {
-  width: 100%;
-  padding: 10px;
-}
-input::placeholder {
-  color: #A2A2A2;
-  font-size: 14px;
-}

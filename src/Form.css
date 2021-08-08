@@ -1,0 +1,112 @@
+.form {
+  width: 400px;
+  height: 605px;
+  background-color: #FFFFFF;
+  color: #222222;
+  border-radius: 8px;
+  padding: 28px;
+}
+.form__title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 37px;
+}
+input {
+  width: 100%;
+  max-width: 343px;
+  font-size: 14px;
+  padding: 17px 18px;
+  border-radius: 8px;
+  border: none;
+  background-color: #F5F8FA;
+}
+input:-webkit-autofill {
+  background-color: #F5F8FA;
+}
+input::placeholder {
+  color: #A2A2A2;
+  font-size: 14px;
+}
+.form__errors {
+  color: #E82828;
+  font-size: 10px;
+  height: 19px;
+  text-align: left;
+  padding-left: 20px;
+  margin: 1px 0 0;
+}
+.form__email {
+  background-image: url('email.svg') !important;
+  background-repeat: no-repeat;
+  background-position: top 17px left 19px;
+  padding-left: 50px;
+}
+.form__email:-webkit-autofill {
+  background-color: #F5F8FA;
+}
+.form__pass {
+  background-image: url('password.svg') !important;
+  background-repeat: no-repeat;
+  background-position: top 12px left 19px;
+  padding-left: 50px;
+}
+.form__pass:-webkit-autofill {
+  background-color: #F5F8FA;
+}
+.form__select {
+  width: 100%;
+  max-width: 343px;
+  font-size: 14px;
+  padding: 18px;
+  border-radius: 8px;
+  border: none;
+  background-color: #F5F8FA;
+  cursor: pointer;
+  appearance: none;
+  background-image: url('select.svg') !important;
+  background-repeat: no-repeat;
+  background-position: top 21px right 20px;
+}
+.form__radio-block {
+  display: flex;
+  flex-direction: row;
+  width: 173px;
+  margin-left: -18px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.form__radio-block * {
+  cursor: pointer;
+}
+.form__radio {
+  width: 30px;
+  margin-left: 10px;
+}
+.form__checkbox-block {
+  display: flex;
+  margin-left: -3px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.form__checkbox {
+  width: 13px;
+  margin-right: 9px;
+  cursor: pointer;
+}
+.form__checkbox-label {
+  padding-top: 1px;
+}
+.form__submit {
+  border-radius: 31px;
+  height: 62px;
+  background-color: #0094FF;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.form__submit[disabled] {
+  background-color: #A2A2A2;
+  cursor: default;
+}
